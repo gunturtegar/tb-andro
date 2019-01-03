@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/kat1"
+            android:icon="@drawable/dessert"
+            android:title="Dessert" />
+        <item
+            android:id="@+id/kat2"
+            android:icon="@drawable/cookies"
+            android:title="Cookies" />
+        <item
+            android:id="@+id/kat3"
+            android:icon="@drawable/masakan"
+            android:title="Masakan" />
+        <item
+            android:id="@+id/kat4"
+            android:icon="@drawable/deep"
+            android:title="Deep Fried" />
+        <item
+            android:id="@+id/kat5"
+            android:icon="@drawable/drink"
+            android:title="Minuman" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+
+            <item
+                android:id="@+id/nav_login"
+                android:icon="@drawable/login"
+                android:title="Login" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>
